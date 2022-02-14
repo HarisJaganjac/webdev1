@@ -14,14 +14,20 @@ img {
 main {
     text-align: center;
     background-color: black;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 header {
     text-align: center;
     background-color: grey;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 footer {
     text-align: center;
     background-color: grey;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 #green-text {
     color: greenyellow;
