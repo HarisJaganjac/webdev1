@@ -4,7 +4,6 @@ body {
     margin: 0;
     background-color: black;
     color: white;
-    font-family: arial;
 }
 img {
     display: block;
@@ -23,12 +22,14 @@ main {
 header {
     text-align: center;
     background-color: grey;
+    font-family: arial;
 }
 footer {
     text-align: center;
     background-color: grey;
     margin-left: 400px;
     margin-right: 400px;
+    font-family: arial;
 }
 #red-text {
     color: darkred;
