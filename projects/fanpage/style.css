@@ -2,6 +2,8 @@
 
 body {
     margin: 0;
+    background-color: black;
+    color: white;
 }
 img {
     display: block;
@@ -10,10 +12,16 @@ img {
 }
 main {
     text-align: center;
+    background-color: black;
 }
 header {
     text-align: center;
+    background-color: grey;
 }
 footer {
     text-align: center;
+    background-color: grey;
+}
+#green-text {
+    color: greenyellow;
 }
