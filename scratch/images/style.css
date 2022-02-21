@@ -1,0 +1,12 @@
+img {
+    max-width: 400px;
+    width: 100%;
+    display: block;
+}
+
+p {
+    max-width: 400px;
+    margin: 0;
+}
+
+
