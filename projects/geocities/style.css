@@ -1,3 +1,52 @@
 body {
-    background-image: url(gif/cool.gif);
+    background-image: url(gif/spacegif.gif);
+}
+h1 {
+    margin: auto 2rem;
+    color: aliceblue;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+p {
+    margin: auto 2rem;
+    color: aliceblue;
+    font-family: arial;
+    text-align: center;    
+}
+#guitar {
+    position: absolute;
+    margin-top: 5em;
+    margin-left: 20rem;
+}
+#music {
+    position: fixed;
+    margin-top: 2em;
+    margin-right: 2em;
+}
+#notes {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    max-width: 100%;
+}
+#sound {
+    position: absolute;
+    margin-left: 50rem;
+    margin-top: 20rem;
+}
+#headphones {
+    position: fixed;
+    margin-left: 65rem;
+    margin-top: 25rem;
+    margin-bottom: 50rem;
+    margin-right: 50rem;
+    max-width: 100%;
+}
+#musicislife {
+    position: fixed;
+    margin-left: 12rem;
+    margin-top: 22rem;
+    margin-bottom: 5rem;
+    max-width: 100%;
 }
