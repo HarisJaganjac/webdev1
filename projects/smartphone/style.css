@@ -3,7 +3,7 @@
     height: 500px;
     background-color: azure;
     margin: 0 auto;
-
+    display: flex;
 }
 
 .app1 {
@@ -13,5 +13,6 @@
     margin: auto;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+
 }
