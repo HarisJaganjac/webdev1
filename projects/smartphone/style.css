@@ -1,17 +1,16 @@
 .wrapper {
-    width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(lightblue, lightpink);
+    background-image: linear-gradient(rgb(230, 173, 218), rgb(221, 255, 182));
 }
 
 .phonescreen {
     width: 50rem;
-    height: 125rem;
-    background-color: azure;
+    height: 115rem;
+    background-color: rgba(202, 255, 255, 0.918);
     margin: auto;
+    border-radius: 5%;
     display: flex;
     flex-direction: column;
 }
@@ -19,11 +18,14 @@
 .row {
     display: flex;
     flex-direction: row;
+    width: 20rem;
+    height: 5rem;
 }
 
 .app {
     width: 5rem;
     height: 5rem;
     background-image: linear-gradient(red, yellow);
-    margin: auto;
+    margin: 0 auto;
+    border-radius: 5%;
 }
