@@ -28,4 +28,5 @@
     background-image: linear-gradient(red, yellow);
     margin: 0 auto;
     border-radius: 5%;
+    justify-content: flex-start flex-end center space-between space-around;
 }
