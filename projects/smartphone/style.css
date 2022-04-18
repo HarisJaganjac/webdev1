@@ -11,5 +11,6 @@
     background-image: linear-gradient(red, yellow);
     margin: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: flex-start;
 }
