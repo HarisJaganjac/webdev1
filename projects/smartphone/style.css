@@ -23,8 +23,4 @@
     height: 25px;
     background-image: linear-gradient(red, yellow);
     margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
 }
