@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Russo One', sans-serif;
 }
 .container {
     height: 100vh;
@@ -14,26 +14,35 @@
 .navbar {
     width: 88%;
     margin: auto;
-    padding: 15px 0;
+    padding: 1rem 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .logo {
-    width: 140px;
+    width: 10rem;
     cursor: pointer;
 }
-.navbar ul li {
+.navbar ul {
     list-style: none;
-    display: inline-block;
-    margin: 0 15px;
+    display: flex;
+    gap: 2rem;
+    margin: 0 1rem;
 }
-.navbar ul li a {
+.navbar a {
     text-decoration: none;
-    color: grey;
-    font-size: 15px;
-
+    color: hsla(251, 64%, 48%, 0.579);
+    font-size: 1rem;
+    transition: transform .5s;
+    display: block;
 }
+
+.navbar a:hover {
+    transform: scale(1.2);
+    color: #ffdb33;
+    text-shadow: 0 0 0.5rem #877d86;
+}
+
 .content {
     width: 100%;
     position: absolute;
@@ -43,21 +52,27 @@
     margin-left: 6%; 
 }
 .left-col h1 {
-    font-size: 90px;
-    color: grey;
-    line-height: 110px;
-    float: left;
+    color: hsl(0, 0%, 100%);
+    margin-right: 0.8rem;
+    font-size: 3.5rem;
+    max-width: 15ch;
+    text-shadow: 0 0 0.5rem #877d86;
+    letter-spacing: 1.5rem;
+    line-height: 1em;
+    text-align: center;
 }
 .right-col {
     float: right;
     margin-right: 6%;
-    margin-top: 120px;
+    margin-top: 10rem;
     display: flex;
     align-items: center;
 }
 .right-col p {
-    font-size: 20px;
-    color: darkgoldenrod;
+    color: #ffdb33;
     font-weight: 400;
-    margin-right: 15px;
+    margin-right: 1.2rem;
+    font-size: 2rem;
+    max-width: 15ch;
+    text-shadow: 0 0 0.25rem #ffdb33;
 }
