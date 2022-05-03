@@ -31,7 +31,7 @@
 }
 .navbar a {
     text-decoration: none;
-    color: hsla(251, 64%, 48%, 0.579);
+    color: #ffdb33;
     font-size: 1rem;
     transition: transform .5s;
     display: block;
@@ -39,7 +39,7 @@
 
 .navbar a:hover {
     transform: scale(1.2);
-    color: #ffdb33;
+    color: #8c2de6;
     text-shadow: 0 0 0.5rem #877d86;
 }
 
