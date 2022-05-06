@@ -32,13 +32,13 @@
 .navbar a {
     text-decoration: none;
     color: #ffdb33;
-    font-size: 1rem;
+    font-size: 1.2rem;
     transition: transform .5s;
     display: block;
 }
 
 .navbar a:hover {
-    transform: scale(1.2);
+    transform: scale(1.3);
     color: #8c2de6;
     text-shadow: 0 0 0.5rem #877d86;
 }
