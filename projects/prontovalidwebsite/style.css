@@ -76,3 +76,36 @@
     max-width: 15ch;
     text-shadow: 0 0 0.25rem #ffdb33;
 }
+.about-heading {
+    text-align: center;
+    background-color: #ffdb33;;
+    font-size: 2rem;
+    margin: auto;
+    padding: 1rem;
+    line-height: 1em;
+    max-width: 65%
+}
+.about-content {
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    margin: auto;
+    padding: 1rem;
+    line-height: 1em;
+    max-width: 65%;
+}
+.homebutton {
+    margin-left: 6%;
+    display: flex;
+    align-items: center;
+    float: left;
+    text-decoration: none;
+    color: #ffdb33;
+    font-size: 1.2rem;
+    transition: transform .5s;
+    list-style: none;
+}
+.homebutton:hover {
+    transform: scale(1.3);
+    color: #8c2de6;
+    text-shadow: 0 0 0.5rem #877d86;
+}
