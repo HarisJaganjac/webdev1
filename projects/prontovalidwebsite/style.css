@@ -87,15 +87,15 @@
 }
 .about-content {
     text-align: center;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(198, 39, 39);
     margin: auto;
     padding: 1rem;
     line-height: 1em;
     max-width: 65%;
 }
 .homebutton {
-    margin-left: 6%;
-    display: flex;
+    margin-left: 2em;
+    display: block;
     align-items: center;
     float: left;
     text-decoration: none;
