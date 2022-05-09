@@ -76,13 +76,12 @@
 
 .left-col h1 {
     color: hsl(0, 0%, 100%);
-    margin-right: 0.8rem;
-    font-size: 3.5rem;
-    max-width: 15ch;
+    font-size: clamp(2rem, 8vw, 5rem);
     text-shadow: 0 0 0.5rem #877d86;
     letter-spacing: 1.5rem;
     line-height: 1;
     text-align: center;
+    padding: 1em;
 }
 
 .right-col {
