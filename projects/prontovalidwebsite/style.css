@@ -87,11 +87,12 @@
 }
 .about-content {
     text-align: center;
-    background-color: rgb(198, 39, 39);
+    background-color: rgb(198, 39, 153);
     margin: auto;
     padding: 1rem;
     line-height: 1em;
     max-width: 65%;
+    font-size: 1rem;
 }
 .homebutton {
     margin-left: 2em;
