@@ -4,15 +4,6 @@
     font-family: 'Russo One', sans-serif;
 }
 
-.bg {
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-
 .container {
     height: 100vh;
     width: 100%;
@@ -68,6 +59,8 @@
 }
 
 .left-col {
+    position: relative;
+    margin: auto;
     margin-left: 3rem;
     display: flex;
     flex-wrap: wrap;
@@ -76,29 +69,35 @@
 
 .left-col h1 {
     color: hsl(0, 0%, 100%);
-    font-size: clamp(2rem, 8vw, 5rem);
+    font-size: clamp(0.5rem, 5vw, 5rem);
     text-shadow: 0 0 0.5rem #877d86;
     letter-spacing: 1.5rem;
     line-height: 1;
     text-align: center;
     padding: 1em;
+    justify-content: flex-end;
 }
 
 .right-col {
     float: right;
     margin-right: 1.2rem;
-    margin-top: 10rem;
+    margin-top: 1rem;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .right-col p {
     color: #ffdb33;
     font-weight: 400;
+    margin: auto;
+    line-height: 1.25;
     margin-right: 1.2rem;
-    font-size: 2rem;
+    font-size: clamp(0.5rem, 2rem, 5rem);
     max-width: 15ch;
     text-shadow: 0 0 0.25rem #ffdb33;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 .about-heading {
@@ -115,6 +114,7 @@
     color: rgb(255, 255, 255);
     background-color: rgba(196, 50, 155, 0.5);
     margin: auto;
+    margin-bottom: 5rem;
     padding: 1rem;
     line-height: 1.25;
     font-size: 1rem;
@@ -123,4 +123,32 @@
 
 .maxwidth {
     max-width: 40rem;
+}
+
+.footer {  
+    position: fixed;
+    left: 0px;  
+    bottom: 0px;  
+    right: 0px;   
+    width: 100vw;  
+    background-color: gray;  
+    color: white;  
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}  
+
+#mc_embed_signup {
+        color: white;
+        max-width: 100ch;
+        align-items: center;
+        margin: 0 auto;
+        padding: auto;
+        position: absolute;
+        top: 15rem;
+        right: 10rem;
+        left: 10rem;
+        bottom: 10rem;
+        display: block;
+        font-size: clamp(0.5rem, 1rem, 1.25rem);
 }
