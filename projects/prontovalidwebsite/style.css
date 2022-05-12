@@ -60,12 +60,6 @@
   }
 }
 
-@media screen and (max-width: 500px) and (height: 700px) {
-    * {
-        transform: scale(0.5);
-    }
-}
-
 .logo {
     width: 10rem;
     cursor: pointer;
@@ -207,7 +201,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
         margin: 0 auto;
         padding: auto;
         text-size-adjust: auto;
-    }  
+    }
 }
 
 #mc_embed_signup {
