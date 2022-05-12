@@ -25,7 +25,7 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .navbar {
       float: none;
       width: 100%;
@@ -39,11 +39,32 @@
       }
 }
 
-@media screen and (max-width: 400px) {
-    .left-col {
-      display: none;
+@media screen and (max-width: 500px) {
+    .left-col h1 {
+        position: absolute;
+        top: 220px;
+        right: 0px;
+        bottom: 5px;
+        left: 0px;
     }
   }
+
+  @media screen and (max-width: 500px) {
+    .right-col p {
+        position: absolute;
+        top: 600px;
+        right: 0px;
+        bottom: 5px;
+        left: 0px;
+        text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) and (height: 700px) {
+    * {
+        transform: scale(0.5);
+    }
+}
 
 .logo {
     width: 10rem;
@@ -159,11 +180,12 @@
     left: 0px;  
     bottom: 0px;  
     right: 0px;   
-    width: 100vw;  
+    width: 100vw;
+    height: 3vh;  
     background-color: gray;  
     color: white;  
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
     padding: auto;
     text-size-adjust: auto;
 }  
