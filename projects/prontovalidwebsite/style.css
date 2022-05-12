@@ -125,6 +125,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    
 }
 
 .left-col h1 {
@@ -138,6 +139,10 @@
     justify-content: flex-end;
     font-weight: 500;
     text-size-adjust: auto;
+    animation-name: ez;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
 }
 
 .right-col {
@@ -161,6 +166,10 @@
     flex-wrap: wrap;
     justify-content: flex-end;
     text-size-adjust: auto;
+    animation-name: ez;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2.5s;
 }
 
 .about-heading {
@@ -171,6 +180,10 @@
     padding: 1rem;
     line-height: 1em;
     text-size-adjust: auto;
+    animation-name: ez;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 700ms;
     
 }
 .about-content {
@@ -183,6 +196,10 @@
     line-height: 1.25;
     font-size: 1rem;
     text-size-adjust: auto;
+    animation-name: ez;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
     
 }
 
@@ -239,4 +256,16 @@ and (-webkit-min-device-pixel-ratio: 1) {
         display: block;
         font-size: clamp(0.5rem, 1rem, 1.25rem);
         text-size-adjust: auto;
+        animation-name: ez;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 700ms;
+}
+
+@keyframes ez {
+    0% {filter: opacity(0%);}
+    25% {filter: opacity(25%);}
+    50% {filter: opacity(50%);}
+    75% {filter: opacity(75%);}
+    100% {filter: opacity(1);}
 }
